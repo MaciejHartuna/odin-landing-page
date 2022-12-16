@@ -42,3 +42,38 @@ html {
     text-align: center;
     width: 100px;
 }
+
+#info-header {
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#info-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.image-box {
+    display: flex;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    border-width: 5px;
+    background-color: #3882F6;
+    justify-content: center;
+
+}
+
+.kitty-pic {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
