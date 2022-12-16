@@ -13,6 +13,13 @@ html {
     margin: 0;
 }
 
+#kitty-header-image {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
 #main-header {
     display: flex;
     background-color: #1F2937;
@@ -38,9 +45,12 @@ html {
     color: #E5E7EB;
 }
 
-#signup-button {
-    border-radius: 25px;
+.signin-button {
+    border-radius: 5px;
     background-color: #3882F6;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
     text-align: center;
     width: 100px;
 }
@@ -69,7 +79,6 @@ html {
 .image-box {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     margin: 10px;
 }
@@ -94,10 +103,80 @@ html {
 /* quote box formatting */
 
 #quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
-    color: #1F2937;
     margin-top: 50px;
-    font-size: 36px;
     height: 300px;
     width: 100%;
+}
+
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+#Cat-name {
+    color: #1F2937;
+    font-size: 18px;
+    font-style: bold;
+    text-align: right;
+    margin-right: 40%;
+}
+
+/*Action button formatting*/
+
+#call-action-section {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+#call-action-box {
+    display: flex;
+    justify-content: space-between;
+    background-color:#3882F6;
+    justify-content: center;
+    border-radius: 25px;
+    height: 150px;
+    width: 50%;
+    margin: 75px 0 75px 0;
+}
+
+#call-action-text {
+    color: #F9FAF8;
+    margin-right: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: white;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+
+.signup-button a {
+    color: #E5E7EB;
+}
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
