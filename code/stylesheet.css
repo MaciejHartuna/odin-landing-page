@@ -54,22 +54,24 @@ html {
     margin-bottom: 50px;
 }
 
+/*info box formatting */
+
 #info-box {
     display: flex;
     justify-content: space-evenly;
     padding-right: 10%;
     padding-left: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .image-box {
     display: flex;
-    border-style: solid;
-    border-color: #3882F6;
-    border-radius: 15px;
-    border-width: 5px;
-    background-color: #3882F6;
-    justify-content: center;
+    flex-direction: column;
 
+    justify-content: center;
+    margin: 10px;
 }
 
 .kitty-pic {
@@ -77,5 +79,25 @@ html {
     max-height: 300px;
     width: auto;
     height: auto;
+    border-style: solid;
+    border-color: #3882F6;
     border-radius: 15px;
+    border-width: 5px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+/* quote box formatting */
+
+#quote-box {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    margin-top: 50px;
+    font-size: 36px;
+    height: 300px;
+    width: 100%;
 }
